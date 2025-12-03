@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Food Delivery Service API is running")
+    res.send("Food Delivery Service API is running  ❤️")
 }
 )
 // Routes
