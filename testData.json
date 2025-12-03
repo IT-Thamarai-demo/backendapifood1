@@ -1,0 +1,299 @@
+{
+  "users": [
+    {
+      "id": "507f1f77bcf86cd799439011",
+      "name": "Rahul Kumar",
+      "email": "rahul@example.com",
+      "phone": "+91-9876543210",
+      "password": "hashed_password_123"
+    },
+    {
+      "id": "507f1f77bcf86cd799439012",
+      "name": "Priya Singh",
+      "email": "priya@example.com",
+      "phone": "+91-9876543211",
+      "password": "hashed_password_456"
+    },
+    {
+      "id": "507f1f77bcf86cd799439013",
+      "name": "Amit Patel",
+      "email": "amit@example.com",
+      "phone": "+91-9876543212",
+      "password": "hashed_password_789"
+    },
+    {
+      "id": "507f1f77bcf86cd799439014",
+      "name": "Neha Sharma",
+      "email": "neha@example.com",
+      "phone": "+91-9876543213",
+      "password": "hashed_password_012"
+    },
+    {
+      "id": "507f1f77bcf86cd799439015",
+      "name": "Raj Verma",
+      "email": "raj@example.com",
+      "phone": "+91-9876543214",
+      "password": "hashed_password_345"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "607f1f77bcf86cd799439011",
+      "name": "Margherita Pizza",
+      "price": 299,
+      "description": "Delicious pizza with fresh tomatoes, mozzarella, and basil",
+      "category": "Pizza",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/pizza_margherita.jpg",
+      "createdAt": "2024-12-01T10:00:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439012",
+      "name": "Pepperoni Pizza",
+      "price": 349,
+      "description": "Classic pepperoni pizza with mozzarella cheese",
+      "category": "Pizza",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/pizza_pepperoni.jpg",
+      "createdAt": "2024-12-01T10:05:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439013",
+      "name": "Butter Chicken",
+      "price": 250,
+      "description": "Tender chicken in creamy tomato-based sauce with butter",
+      "category": "Indian",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/butter_chicken.jpg",
+      "createdAt": "2024-12-01T10:10:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439014",
+      "name": "Biryani",
+      "price": 220,
+      "description": "Aromatic basmati rice with tender meat, spices and herbs",
+      "category": "Indian",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/biryani.jpg",
+      "createdAt": "2024-12-01T10:15:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439015",
+      "name": "Paneer Tikka",
+      "price": 180,
+      "description": "Grilled paneer cubes marinated in yogurt and spices",
+      "category": "Indian",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/paneer_tikka.jpg",
+      "createdAt": "2024-12-01T10:20:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439016",
+      "name": "Veg Fried Rice",
+      "price": 150,
+      "description": "Fried rice with mixed vegetables and aromatic spices",
+      "category": "Chinese",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/veg_fried_rice.jpg",
+      "createdAt": "2024-12-01T10:25:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439017",
+      "name": "Hakka Noodles",
+      "price": 160,
+      "description": "Stir-fried noodles with vegetables and soy sauce",
+      "category": "Chinese",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/hakka_noodles.jpg",
+      "createdAt": "2024-12-01T10:30:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439018",
+      "name": "Chicken Shawarma",
+      "price": 200,
+      "description": "Spiced marinated chicken wrapped in pita bread",
+      "category": "Fast Food",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/shawarma.jpg",
+      "createdAt": "2024-12-01T10:35:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439019",
+      "name": "Samosa (3 pcs)",
+      "price": 80,
+      "description": "Crispy fried pastry filled with spiced potatoes and peas",
+      "category": "Snacks",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/samosa.jpg",
+      "createdAt": "2024-12-01T10:40:00Z"
+    },
+    {
+      "id": "607f1f77bcf86cd799439020",
+      "name": "Mango Lassi",
+      "price": 100,
+      "description": "Refreshing yogurt-based drink with fresh mango pulp",
+      "category": "Beverages",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/mango_lassi.jpg",
+      "createdAt": "2024-12-01T10:45:00Z"
+    }
+  ],
+  "carts": [
+    {
+      "id": "707f1f77bcf86cd799439011",
+      "user": "507f1f77bcf86cd799439011",
+      "items": [
+        {
+          "product": "607f1f77bcf86cd799439011",
+          "quantity": 2
+        },
+        {
+          "product": "607f1f77bcf86cd799439013",
+          "quantity": 1
+        }
+      ],
+      "createdAt": "2024-12-03T15:00:00Z",
+      "updatedAt": "2024-12-03T15:30:00Z"
+    },
+    {
+      "id": "707f1f77bcf86cd799439012",
+      "user": "507f1f77bcf86cd799439012",
+      "items": [
+        {
+          "product": "607f1f77bcf86cd799439014",
+          "quantity": 1
+        },
+        {
+          "product": "607f1f77bcf86cd799439020",
+          "quantity": 2
+        }
+      ],
+      "createdAt": "2024-12-03T14:00:00Z",
+      "updatedAt": "2024-12-03T14:45:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "807f1f77bcf86cd799439011",
+      "user": "507f1f77bcf86cd799439011",
+      "items": [
+        {
+          "product": "607f1f77bcf86cd799439011",
+          "quantity": 2
+        },
+        {
+          "product": "607f1f77bcf86cd799439013",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 848,
+      "status": "delivered",
+      "address": "123 MG Road, Bangalore, Karnataka 560001",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-02T10:00:00Z",
+      "updatedAt": "2024-12-02T14:30:00Z"
+    },
+    {
+      "id": "807f1f77bcf86cd799439012",
+      "user": "507f1f77bcf86cd799439012",
+      "items": [
+        {
+          "product": "607f1f77bcf86cd799439014",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 440,
+      "status": "confirmed",
+      "address": "456 Brigade Road, Bangalore, Karnataka 560025",
+      "paymentMethod": "cash_on_delivery",
+      "createdAt": "2024-12-03T11:00:00Z",
+      "updatedAt": "2024-12-03T11:30:00Z"
+    },
+    {
+      "id": "807f1f77bcf86cd799439013",
+      "user": "507f1f77bcf86cd799439013",
+      "items": [
+        {
+          "product": "607f1f77bcf86cd799439015",
+          "quantity": 3
+        },
+        {
+          "product": "607f1f77bcf86cd799439019",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 620,
+      "status": "pending",
+      "address": "789 Indiranagar, Bangalore, Karnataka 560038",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-04T09:00:00Z",
+      "updatedAt": "2024-12-04T09:15:00Z"
+    },
+    {
+      "id": "807f1f77bcf86cd799439014",
+      "user": "507f1f77bcf86cd799439014",
+      "items": [
+        {
+          "product": "607f1f77bcf86cd799439018",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 400,
+      "status": "delivered",
+      "address": "321 Koramangala, Bangalore, Karnataka 560034",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-01T18:00:00Z",
+      "updatedAt": "2024-12-02T12:00:00Z"
+    },
+    {
+      "id": "807f1f77bcf86cd799439015",
+      "user": "507f1f77bcf86cd799439015",
+      "items": [
+        {
+          "product": "607f1f77bcf86cd799439012",
+          "quantity": 1
+        },
+        {
+          "product": "607f1f77bcf86cd799439020",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 449,
+      "status": "canceled",
+      "address": "654 Whitefield, Bangalore, Karnataka 560066",
+      "paymentMethod": "cash_on_delivery",
+      "createdAt": "2024-12-02T20:00:00Z",
+      "updatedAt": "2024-12-02T21:00:00Z"
+    }
+  ],
+  "authTestData": {
+    "register": {
+      "valid": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+91-9999999999",
+        "password": "SecurePass@123"
+      },
+      "invalid": [
+        {
+          "name": "Jane Doe",
+          "email": "invalid-email",
+          "phone": "+91-9999999998",
+          "password": "pass"
+        },
+        {
+          "name": "",
+          "email": "test@example.com",
+          "phone": "+91-9999999997",
+          "password": "password123"
+        }
+      ]
+    },
+    "login": {
+      "valid": {
+        "email": "rahul@example.com",
+        "password": "password123"
+      },
+      "invalid": [
+        {
+          "email": "nonexistent@example.com",
+          "password": "password123"
+        },
+        {
+          "email": "rahul@example.com",
+          "password": "wrongpassword"
+        }
+      ]
+    }
+  }
+}
